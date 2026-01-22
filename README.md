@@ -8,13 +8,13 @@ This application allows users to take a selfie and seamlessly immerse themselves
 
 ## 📖 Overview
 
-The core technology behind this demo is the ability of Gemini 2.5 Flash to handle **conversational image generation** and **multiple reference images**.
+The core technology behind this demo is the ability of Nano Banana Pro to handle **high quality conversational image generation** and **multiple reference images**.
 
 By combining a user's uploaded selfie with reference images of the Formula E GenBeta car and specific branding, the model generates highly realistic, personalized output. It demonstrates how marketers and creatives can build personalized visual assets and immersive experiences.
 
 ### Key Features
 *   **Selfie Integration:** Takes a participant's photo and blends it into a Formula E context.
-*   **Reference Image Consistency:** Uses "few-shot" prompting with reference images (cars, logos) to ensure brand realism.
+*   **Reference Image Consistency:** Uses "few-shot" prompting with reference images (cars, logos), as well as Grounding with Google Search to ensure brand realism.
 *   **Conversational Editing:** Users can refine the generated image by typing natural language edits (e.g., "Make the background sunny," "Add a helmet").
 *   **Multi-Modal Inputs:** Handles text prompts and image inputs simultaneously.
 
