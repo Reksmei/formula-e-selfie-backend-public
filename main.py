@@ -12,9 +12,9 @@ from google.genai import types
 from google.cloud import storage
 
 #Configuration
-PROJECT_ID = "formula-e-selfie"
+PROJECT_ID = os.getenv(PROJECT_ID)
 LOCATION = "global"
-BUCKET_NAME = "created-images"
+BUCKET_NAME = os.getenv(BUCKET_NAME)
 MODEL_ID = "gemini-3-pro-image-preview"
 
 #Initializing Client
