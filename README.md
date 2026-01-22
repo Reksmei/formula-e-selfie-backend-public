@@ -40,7 +40,7 @@ The solution uses a serverless architecture on Google Cloud to ensure scalabilit
 
 ## 🛠️ Technology Stack
 
-*   **AI Model:** Gemini 2.5 Flash Image ("Nano Banana")
+*   **AI Model:** Gemini 3 Flash Image Preview ("Nano Banana Pro")
 *   **Platform:** Google Cloud Vertex AI
 *   **Backend:** Python (FastAPI)
 *   **Compute:** Google Cloud Run
