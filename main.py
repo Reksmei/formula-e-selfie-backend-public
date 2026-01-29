@@ -10,6 +10,9 @@ from pydantic import BaseModel
 from google import genai
 from google.genai import types
 from google.cloud import storage
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #Configuration
 PROJECT_ID = os.getenv(PROJECT_ID)
