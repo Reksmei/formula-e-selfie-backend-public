@@ -1,6 +1,6 @@
 # Formula E AI Selfie 🏎️📸
 
-**Formula E AI Selfie** is a Generative Media demo that showcases the power of **Nano Banana Pro (Gemini 3 Pro Image Preview)** on Google Cloud's Vertex AI Platform.
+**Formula E AI Selfie** is a Generative Media demo that showcases the power of **Nano Banana 2 (Gemini 3.1 Image Preview)** on Google Cloud's Vertex AI Platform.
 
 This application allows users to take a selfie and seamlessly immerse themselves into the world of Formula E—transforming them into a race car driver, placing them on a track, or even turning them into a collectible figurine—all through the power of conversational image generation.
 
@@ -15,6 +15,7 @@ By combining a user's uploaded selfie with reference images of the Formula E Gen
 ### Key Features
 *   **Selfie Integration:** Takes a participant's photo and blends it into a Formula E context.
 *   **Reference Image Consistency:** Uses "few-shot" prompting with reference images (cars, logos), as well as Grounding with Google Search to ensure brand realism.
+*   **Balancing speed & performance:** Users can receive a highly detailed, realistic image within seconds.
 *   **Conversational Editing:** Users can refine the generated image by typing natural language edits (e.g., "Make the background sunny," "Add a helmet").
 *   **Multi-Modal Inputs:** Handles text prompts and image inputs simultaneously.
 
@@ -30,7 +31,7 @@ The solution uses a serverless architecture on Google Cloud to ensure scalabilit
 ### System Flow
 1.  **Client (Frontend):** The user accesses a Web App hosted on **Firebase**. They capture a selfie and select a prompt theme.
 2.  **Backend (Cloud Run):** The request is sent to a containerized Python service running on **Google Cloud Run**.
-3.  **AI Processing (Vertex AI):** The Cloud Run service sends the selfie, prompt, and reference assets to **Nano Banana Pro (Gemini 3 Pro Image Preview)** via Vertex AI.
+3.  **AI Processing (Vertex AI):** The Cloud Run service sends the selfie, prompt, and reference assets to **Nano Banana 2 (Gemini 3.1 Flash Image Preview)** via Vertex AI.
 4.  **Generation & Storage:**
     *   The model edits the image into the themed setting.
     *   Cloud Run uploads the result to **Google Cloud Storage**.
@@ -40,7 +41,7 @@ The solution uses a serverless architecture on Google Cloud to ensure scalabilit
 
 ## 🛠️ Technology Stack
 
-*   **AI Model:** Gemini 3 Pro Image Preview ("Nano Banana Pro")
+*   **AI Model:** Gemini 3.1 Flash Image Preview ("Nano Banana 2")
 *   **Platform:** Google Cloud Vertex AI
 *   **Backend:** Python (FastAPI)
 *   **Compute:** Google Cloud Run
