@@ -18,7 +18,7 @@ load_dotenv()
 PROJECT_ID = os.getenv(PROJECT_ID)
 LOCATION = "global"
 BUCKET_NAME = os.getenv(BUCKET_NAME)
-MODEL_ID = "gemini-3-pro-image-preview"
+MODEL_ID = "gemini-3.1-flash-image-preview"
 
 #Initializing Client
 client = genai.Client(
