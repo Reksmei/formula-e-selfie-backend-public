@@ -1,6 +1,6 @@
 # Formula E AI Selfie 🏎️📸
 
-**Formula E AI Selfie** is a Generative Media demo that showcases the power of **Nano Banana 2 (Gemini 3.1 Image Preview)** on Google Cloud's Vertex AI Platform.
+**Formula E AI Selfie** is a Generative Media demo that showcases the power of **Nano Banana 2 (Gemini 3.1 Image Preview)** on Google Cloud's Agent Platform.
 
 This application allows users to take a selfie and seamlessly immerse themselves into the world of Formula E—transforming them into a race car driver, placing them on a track, or even turning them into a collectible figurine—all through the power of conversational image generation.
 
