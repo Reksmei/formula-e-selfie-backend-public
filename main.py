@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 @app.post("/generate")
-async def main_generate_image(prompt: str, image: Optional[UploadFile] = File(None), reference_image: Optional[UploadFile] = File(None)):
+async def main_generate_image(prompt: str = Form(...), image: Optional[UploadFile] = File(None), reference_image: Optional[UploadFile] = File(None)):
     return await app_utils.generate_image(prompt,image,reference_image)
 
 
