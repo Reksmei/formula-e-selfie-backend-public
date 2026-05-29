@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 python-multipart
-google-genai
+google-genai>=2.7.0
 google-cloud-storage
 pydantic
 qrcode
