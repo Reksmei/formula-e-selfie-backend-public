@@ -22,7 +22,7 @@ MODEL_ID = "gemini-3.1-flash-image-preview"
 
 #Initializing Client
 client = genai.Client(
-    vertexai=True,
+    enterprise=True,
     project=PROJECT_ID,
     location=LOCATION
 )
@@ -88,7 +88,7 @@ async def generate_image(
         google_search=types.GoogleSearch()
     )
 
-    #API Call to Gemini on Vertex AI 
+    #API Call to Gemini on Agent Platform
         response = client.models.generate_content(
         model=MODEL_ID,
         contents=contents,
